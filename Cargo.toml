@@ -1,0 +1,13 @@
+[package]
+name = "server_hello"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+axum = { version = "0.7.3", features = ["multipart"] }
+tokio = { version = "1.35.0", features = ["full"] }
+
+
+[dev-dependencies]
+anyhow = "1"
+httpc-test = "0.1.1"
